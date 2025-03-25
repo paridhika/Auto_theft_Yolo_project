@@ -1,0 +1,26 @@
+Install Python: Python usually comes pre-installed on MacOS and most Linux distributions. You can verify the installation by running python --version in the terminal (note that depending on how Python is installed, you might have to use python3 instead of python throughout these steps).
+
+Ensure you have installed Python 3.10 or higher. If you do not have it installed, you can download it from python.org.
+
+Create a Virtual Environment: Open Terminal and navigate to your project directory. Then create a virtual environment using:
+
+
+python -m venv gradio-env
+Note: you can choose a different name than gradio-env for your virtual environment in this step.
+
+Activate the Virtual Environment: To activate the virtual environment on MacOS/Linux, use:
+
+
+source gradio-env/bin/activate
+Install Gradio: With the virtual environment activated, install Gradio using pip:
+
+
+pip install gradio
+Verification: To verify the installation, run python and then type:
+
+
+import gradio as gr
+print(gr.__version__)
+This will display the installed version of Gradio.
+
+B
