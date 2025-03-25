@@ -2,7 +2,7 @@ Install Python: Python usually comes pre-installed on MacOS and most Linux distr
 
 Ensure you have installed Python 3.10 or higher. If you do not have it installed, you can download it from python.org.
 
-Create a Virtual Environment: Open Terminal and navigate to your project directory. Then create a virtual environment using:
+Create a Virtual Environment: Open Terminal and navigate to your project directory. Then, create a virtual environment using:
 
 
 python -m venv gradio-env
@@ -16,9 +16,13 @@ Install Gradio: With the virtual environment activated, install Gradio using pip
 
 
 pip install gradio
-Verification: To verify the installation, run python and then type:
+Verification: To verify the installation, run Python and then type:
 
 
 import gradio as gr
 print(gr.__version__)
 This will display the installed version of Gradio.
+
+Install the ultralytics package, which hasthe  YOLO model
+
+pip install ultralytics
