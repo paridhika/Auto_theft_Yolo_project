@@ -1,4 +1,4 @@
-#Install Python:# Python usually comes pre-installed on MacOS and most Linux distributions. You can verify the installation by running python --version in the terminal (note that depending on how Python is installed, you might have to use python3 instead of python throughout these steps).
+Install Python: Python usually comes pre-installed on MacOS and most Linux distributions. You can verify the installation by running python --version in the terminal (note that depending on how Python is installed, you might have to use python3 instead of python throughout these steps).
 
 Ensure you have installed Python 3.10 or higher. If you do not have it installed, you can download it from python.org.
 
@@ -22,5 +22,3 @@ Verification: To verify the installation, run python and then type:
 import gradio as gr
 print(gr.__version__)
 This will display the installed version of Gradio.
-
-B
