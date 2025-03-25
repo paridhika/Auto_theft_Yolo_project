@@ -1,6 +1,6 @@
 # Auto_theft_Yolo_project
 
-..Download images from Bing search..
+Download images from Bing search
 
 pip install bing-image-downloader
 
